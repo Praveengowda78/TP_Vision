@@ -2,7 +2,7 @@ pandas
 ast
 pickle5
 datasets
-sentence-transformers
+sentence_transformers
 scikit-learn
 transformers
 streamlit
