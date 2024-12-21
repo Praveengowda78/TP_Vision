@@ -1,8 +1,6 @@
 pandas
-
-pickle
 datasets
 sentence_transformers
 scikit-learn
 transformers
-streamlit
+torch
