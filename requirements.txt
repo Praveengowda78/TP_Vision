@@ -1,6 +1,6 @@
 pandas
-ast
-pickle5
+
+pickle
 datasets
 sentence_transformers
 scikit-learn
