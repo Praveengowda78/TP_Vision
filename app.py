@@ -5,7 +5,7 @@ import pickle
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 
-# Load pre-trained models
+
 with open('topic_model.pkl', 'rb') as f:
     kmeans = pickle.load(f)
 
@@ -15,7 +15,7 @@ with open('topic_labels.pkl', 'rb') as f:
 with open('sentence_transformer.pkl', 'rb') as f:
     sentence_transformer = pickle.load(f)
 
-# Sentiment analysis pipeline with three classes
+
 sentiment_analyzer = pipeline(
     "sentiment-analysis",
     model="distilbert-base-uncased-finetuned-sst-2-english",
