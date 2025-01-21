@@ -6,7 +6,7 @@ from sentence_transformers import SentenceTransformer
 from sklearn.cluster import KMeans
 from transformers import pipeline
 
-# Load the dataset
+
 dataset = load_dataset("LDJnr/Puffin")
 df = dataset['train'].to_pandas()
 
